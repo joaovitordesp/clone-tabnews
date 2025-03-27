@@ -1,5 +1,5 @@
-function Home() {
-  return <h1>Te amo manitos</h1>;
-}
-
-export default Home;
+function status(request, response) {
+    response.status(200).json({ chave: "são acima da média" });
+  }
+  
+  export default status;
