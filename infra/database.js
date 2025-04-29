@@ -13,7 +13,7 @@ async function query(queryObject) {
   } finally {
     await client.end();
   }
-}
+} 
 
 function getSSLValues() {
   if (process.env.POSTGRES_CA) {
