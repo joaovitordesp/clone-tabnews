@@ -23,6 +23,6 @@ async function waitForAllServices() {
 
 const orchestrator = {
   waitForAllServices,
-}
+};
 
 export default orchestrator;
